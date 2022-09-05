@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+.home-container {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECECEB;
+  }
+  
+  .table {
+    table {
+      width: auto;
+    }
+  }
+
+  .wine{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top:50px
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+
+.ant-btn{
+    background-color: #000000;
+    border: none;
+    margin: 10px;
+}
+
+.ant-btn:hover{
+    background-color: #ffffff;
+    border: 1px solid #000;
+    color: #000000;
+}
+
+.reset{
+  background-color: #ff0000;
+  border: none;
+  margin: 10px;
+}
+
+.reset:hover{
+  background-color: #ffffff;
+  border: 1px solid rgb(255, 1, 1);
+  color: #ff0000;
+}
+
+.ant-btn, .ant-btn-link, .ant-btn-sm > span{
+  color: #ff0000;
+}
+
+.ant-btn, .ant-btn-link, .ant-btn-sm > span :hover{
+  color: #ffffff;
+}
+
+.ant-checkbox{
+  color: #ff0000;
+}
+
+.ant-dropdown-menu-item-selected{
+  color: #ff0000;
+}
+
+.ant-table-content{
+  display: flex;
+  justify-content: center;
+  background-color: #ECECEB;
+  width: 90%;
+  margin-top: 50px;
+  border: 1px #000 solid;
+}
+
+.ant-table-container{
+  display: flex;
+  justify-content: center;
+  background-color: #ECECEB;
+}
+
+
+
+.ant-pagination, .ant-pagination-mini, .ant-table-pagination, .ant-table-pagination-right{
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ant-pagination-item, .ant-pagination-item-active:hover{
+  border-color:#000000;
+}
+
+.ant-pagination-item, .ant-pagination-item-active{
+  border-color:#000000;
+}
+
+
+.ant-pagination-item-active a {
+  color: #000000;
+}
+
+.ant-pagination-item-active:hover a {
+  color: #000000;
+}
+
+.ant-pagination-item a :hover{
+  color: #000000;
+}
